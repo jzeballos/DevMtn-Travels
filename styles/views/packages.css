@@ -45,6 +45,11 @@
 
 }
 
+.image-container {
+    width: 400px;
+    margin: 0 auto;
+}
+
 @media(min-width: 800px) {
     .packages-main {
         flex-direction: row;
@@ -55,6 +60,7 @@
     }
 
     .package-card img {
+        /*width:100%;*/
         height: 260px;
     }
 
